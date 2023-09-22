@@ -1,12 +1,19 @@
 import { Header } from './components/Header';
 import './global.css';
+import styles from './App.module.css';
+
 
 function App() {
 
   return (
     <div>
       <Header/>
-      <h1>Rocketseat</h1>
+      <div className={styles.wrapper}>
+        <Sidebar />
+        <main>
+
+        </main>
+      </div>
     </div>
   )
 }
