@@ -72,6 +72,7 @@ export function Post ({ author, publishedAt, content }) {
                     placeholder="Deixe um comentário"
                     value={newCommentText}
                     onChange={handleNewCommentChange}
+                    required
                 />
 
                 <footer>
