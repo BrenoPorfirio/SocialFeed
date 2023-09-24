@@ -40,8 +40,6 @@ export function Post () {
 
             <div className={styles.commentList}>
             <Comment />
-            <Comment />
-            <Comment />
             </div>
         </article>
     )
