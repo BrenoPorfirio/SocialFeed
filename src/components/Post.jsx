@@ -5,7 +5,7 @@ import { Avatar } from './Avatar';
 import styles from './Post.module.css';
 
 export function Post ({ author, publishedAt }) {
-    const publishedDateFormated = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", {
+    const publishedDateFormatted = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", {
         locale: ptBR,
     })
 
@@ -24,8 +24,9 @@ export function Post ({ author, publishedAt }) {
                         <span>{author.role}</span>
                     </div>
                 </div>
-                <time title={publishedDateFormated} dateTime="2023-23-09 19:45:50">Publicado há 1h</time>
+                <time title={publishedDateFormatted} dateTime={publishedAt.toISOString()}>
                     {publishedDateRelativeToNow}
+                </time>
             </header>
 
             <div className={styles.content}>
