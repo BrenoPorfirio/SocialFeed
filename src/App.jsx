@@ -3,6 +3,7 @@ import { Post } from './components/Post';
 import { Sidebar } from './components/Sidebar';
 import './global.css';
 import styles from './App.module.css';
+import { Key } from 'phosphor-react';
 
 const posts =[
   {
@@ -46,6 +47,7 @@ function App() {
           {posts.map(post =>{
             return (
               <Post 
+                key={post.id}
                 author={post.author}
                 content={post.content}
                 publishedAt={post.publishedAt}
