@@ -15,9 +15,8 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 </p>
 
 <br>
-
 <p align="center">
-  <img alt="SocialFeed" src=".github/preview.jpg" width="100%">
+  <img alt="SocialFeed" src="https://github.com/BrenoPorfirio/SocialFeed/assets/112186428/4fe282d0-8f75-46d4-bc27-b4504786c45d" width="100%">
 </p>
 
 ## 🚀 Tecnologias
