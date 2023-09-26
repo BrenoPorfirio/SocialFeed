@@ -24,6 +24,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - React + Vite
+- TypeScript
 - Git e Github
 - Figma
 
