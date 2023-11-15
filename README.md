@@ -35,7 +35,7 @@ Siga abaixo os seguinte passos para execução do código:
 1. Clone o repositório utilizando:
 
 ```bash
-  https://github.com/BrenoPorfirio/SocialFeed.git
+  git clone https://github.com/BrenoPorfirio/SocialFeed.git
 ```
 
 2. Agora, vá para o diretório na sua IDE utilizando:
