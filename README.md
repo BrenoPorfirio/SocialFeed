@@ -41,7 +41,7 @@ Siga abaixo os seguinte passos para execução do código:
 2. Agora, vá para o diretório na sua IDE utilizando:
 
 ```bash
-  cd Social-Feed
+  cd SocialFeed
 ```
 
 3. Instale todas as dependências necessárias utilizando:
